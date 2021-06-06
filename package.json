@@ -2,8 +2,10 @@
   "name": "ws",
   "version": "1.0.0",
   "description": "",
-  "main": "}",
+  "main": "index.js",
   "scripts": {
+    "start": "node server.js",
+    "nodemon":"nodemon --match server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Andres Canovas",
