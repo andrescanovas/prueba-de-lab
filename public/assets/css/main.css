@@ -4447,8 +4447,7 @@
 
 .imagenesajustadas{
 	display: grid;
-	grid-template-columns: 1fr;
-	
+	grid-template-columns: 1fr 4fr 1fr;
 	background-position: center;
 	background-size: cover;
 
