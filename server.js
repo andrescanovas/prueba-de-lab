@@ -40,8 +40,8 @@ app.get('/', function (req, res) {
 })
 
 
-app.get('/descargas', function (req, res) {
-  res.render('descargas',{
+app.get('/descarga', function (req, res) {
+  res.render('descarga',{
     titulo: 'Trabajando con hbs',
     titulo2:'Bienvenido al Blog de: ',
     nombre: 'Andres Canovas'

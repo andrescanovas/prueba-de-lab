@@ -4437,6 +4437,9 @@
 
 
 /*  */
-img.centrado {
-	text-align: center;
+
+.botonera-descargas{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
 }
