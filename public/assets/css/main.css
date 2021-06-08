@@ -2036,7 +2036,7 @@
 			input[type="button"].special:hover,
 			button.special:hover,
 			.button.special:hover {
-				background-color: #f75f5f;
+				background-color: #95D600;
 			}
 
 			input[type="submit"].special:active,
@@ -3140,7 +3140,7 @@
 					.wrapper.style2 input[type="button"].special:hover,
 					.wrapper.style2 button.special:hover,
 					.wrapper.style2 .button.special:hover {
-						background-color: #f75f5f;
+						background-color: #95D600;
 					}
 
 					.wrapper.style2 input[type="submit"].special:active,
@@ -4442,4 +4442,14 @@
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
+}
+
+
+.imagenesajustadas{
+	display: grid;
+	grid-template-columns: 1fr;
+	
+	background-position: center;
+	background-size: cover;
+
 }
