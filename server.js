@@ -57,11 +57,6 @@ app.get('/comunidad', function (req, res) {
   })
 })
 
-
-
-
-
-
 app.listen(port, ()=>{
 
   console.log(`Escuchando el servidor en el puerto http://localhost: ${port}`)
