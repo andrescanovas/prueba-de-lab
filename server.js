@@ -57,6 +57,14 @@ app.get('/comunidad', function (req, res) {
   })
 })
 
+app.get('/curso', function (req, res) {
+  res.render('curso',{
+    titulo: 'Trabajando con hbs',
+    titulo2:'Bienvenido al Blog de: ',
+    nombre: 'Andres Canovas'
+  })
+})
+
 app.listen(port, ()=>{
 
   console.log(`Escuchando el servidor en el puerto http://localhost: ${port}`)
