@@ -10,7 +10,9 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<link rel="stylesheet" href="assets/css/main.css" />
-		<script src="dn.js"></script>
+		<script>function reproducir(sonido){
+    var elemento = document.getElementById(sonido);
+    elemento.play();} </script>
 		</head>
 	<body class="subpage">
 
@@ -30,29 +32,24 @@
 					<p>Descarga los mejores sonidos para tu botonera</p>
 					<div class='elementocentrado'>
 						<div class="botonera-descargas" >
-							<section class="botonesdescargasonido"><img src="/images/descarga.png" alt="sadas" height="50px" width="50px" class="iconocentrado"><br><a href="/sonidos/turn-down-for-what.mp3"  class="button special small">Turn down for what </a></section>
-							<section align='center'class="botonesdescargasonido"><img src="/images/descarga.png" alt="sadas" height="50px" width="50px"><br><a href="/sonidos/chewbacca.swf.mp3" download="tchewbacca" class="button special small">chewbacca</a></section>
-							<section align='center'class="botonesdescargasonido"><img src="/images/descarga.png" alt="sadas" height="50px" width="50px"><br><a href="/sonidos/gta-san-andreas-mission-complete-sound-hq.mp3" download="gta-san-andreas-mission-complete-sound-hq" class="button special small">gta SA mission complete</a></section>
-							<section align='center'class="botonesdescargasonido"><img src="/images/descarga.png" alt="sadas" height="50px" width="50px"><br><a href="/sonidos/omae-wa-mou-shindeiru.mp3" download="omae-wa-mou-shindeiru" class="button special small">omae wa mou shindeiru</a></section>
-							<section align='center'class="botonesdescargasonido"><img src="/images/descarga.png" alt="sadas" height="50px" width="50px"><br><a href="/sonidos/tano-pasman-nooooo.mp3" download="tano-pasman-nooooo" class="button special small">tano pasman nooooo</a></section>
+							<section class="botonesdescargasonido"><button class="button special small" onClick="reproducir('sonido1')" >Turn-down-for-what </button><audio id="sonido1"><source src="/sonidos/turn-down-for-what.mp3" type="audio/mpeg"></audio><br><a href="/sonidos/turn-down-for-what.mp3" download="turn-down-for-what">Descargar</a></section>
+							<section class="botonesdescargasonido"><button class="button special small" onClick="reproducir('sonido2')" >Chewbacca</button><audio id="sonido2"><source src="/sonidos/chewbacca.swf.mp3" type="audio/mpeg"></audio><br><a href="/sonidos/chewbacca.swf.mp3" download="tchewbacca" >Descargar</a></section>
+							<section class="botonesdescargasonido"><button class="button special small" onClick="reproducir('sonido3')" >Gta SA mission complete </button><audio id="sonido3"><source src="/sonidos/gta-san-andreas-mission-complete-sound-hq.mp3" type="audio/mpeg"></audio><br><a href="/sonidos/gta-san-andreas-mission-complete-sound-hq.mp3" download="gta-san-andreas-mission-complete-sound-hq">Descargar</a></section>
+							<section class="botonesdescargasonido"><button class="button special small" onClick="reproducir('sonido4')" >Omae wa mou shindeiru</button><audio id="sonido4"><source src="/sonidos/omae-wa-mou-shindeiru.mp3" type="audio/mpeg"></audio><br><a href="/sonidos/omae-wa-mou-shindeiru.mp3" download="omae-wa-mou-shindeiru" >Descargar</a></section>
+							<section class="botonesdescargasonido"><button class="button special small" onClick="reproducir('sonido5')" >Tano pasman nooooo</button><audio id="sonido5"><source src="/sonidos/tano-pasman-nooooo.mp3" type="audio/mpeg"></audio><br><a href="/sonidos/tano-pasman-nooooo.mp3" download="tano-pasman-nooooo" >Descargar</a></section>
 							
-							<section>
-							<button onClick='reproducir('sonido1')'>prueba</button>
-							<audio id='sonido1'>
-								<source src="/sonidos/combobreaker.mp3" type="audio/mp3">
-							</audio>
-							</section>
+							{{!-- <section><button onClick="reproducir('sonido1')">prueba</button><audio id="sonido1"><source src="/sonidos/combobreaker.mp3" type="audio/mpeg"></audio></section> --}}
 							
 						</div>
 						<br>
 						<br>
 						<div class="botonera-descargas">
 							
-							<section align='center'class="botonesdescargasonido"><img src="/images/descarga.png" alt="sadas" height="50px" width="50px"><br><a href="/sonidos/the-simpsons-nelsons-haha.mp3" download="the-simpsons-nelsons-haha" class="button special small">Nelsons haha</a></section>
-							<section align='center'class="botonesdescargasonido"><img src="/images/descarga.png" alt="sadas" height="50px" width="50px"><br><a href="/sonidos/victoryff.swf.mp3" download="victoryff" class="button special small"> Victory ff </a></section>
-							<section align='center'class="botonesdescargasonido"><img src="/images/descarga.png" alt="sadas" height="50px" width="50px"><br><a href="/sonidos/combobreaker.mp3" download="combobreaker" class="button special small">combobreaker</a></section>
-							<section align='center'class="botonesdescargasonido"><img src="/images/descarga.png" alt="sadas" height="50px" width="50px"><br><a href="/sonidos/fatality.swf.mp3" download="fatality" class="button special small">fatality swf</a></section>
-							<section align='center'class="botonesdescargasonido"><img src="/images/descarga.png" alt="sadas" height="50px" width="50px"><br><a href="/sonidos/pickle_rick.mp3" download="pickle_rick" class="button special small">pickle_rick</a></section>
+							<section class="botonesdescargasonido"><button class="button special small" onClick="reproducir('sonido6')" >Nelsons haha </button><audio id="sonido6"><source src="/sonidos/turn-down-for-what.mp3" type="audio/mpeg"></audio><br><a href="/sonidos/the-simpsons-nelsons-haha.mp3" download="the-simpsons-nelsons-haha">Descargar</a></section>
+							<section class="botonesdescargasonido"><button class="button special small" onClick="reproducir('sonido7')" >Victory ff </button><audio id="sonido7"><source src="/sonidos/turn-down-for-what.mp3" type="audio/mpeg"></audio><br><a href="/sonidos/victoryff.swf.mp3" download="victoryff"> Descargar </a></section>
+							<section class="botonesdescargasonido"><button class="button special small" onClick="reproducir('sonido8')" >Combobreaker </button><audio id="sonido8"><source src="/sonidos/turn-down-for-what.mp3" type="audio/mpeg"></audio><br><a href="/sonidos/combobreaker.mp3" download="combobreaker" >Descargar</a></section>
+							<section class="botonesdescargasonido"><button class="button special small" onClick="reproducir('sonido9')" >Fatality swf</button><audio id="sonido9"><source src="/sonidos/turn-down-for-what.mp3" type="audio/mpeg"></audio><br><a href="/sonidos/fatality.swf.mp3" download="fatality" >Descargar</a></section>
+							<section class="botonesdescargasonido"><button class="button special small" onClick="reproducir('sonido10')" >Pickle_rick</button><audio id="sonido10"><source src="/sonidos/turn-down-for-what.mp3" type="audio/mpeg"></audio><br><a href="/sonidos/pickle_rick.mp3" download="pickle_rick" >Descargar</a></section>
 							
 							
 
